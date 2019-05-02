@@ -67,3 +67,34 @@ início
 fim
  
 Tem um tempo de complexidade de 9 passos para finalizar a execução do programa.
+
+## 15 Problema
+###### O que é análise assintótica? Qual é o seu objetivo?
+A análise assintótica é um método de descrever o comportamento de limites, com objetivo de compreender o tempo de execução para entradas grandes.
+
+## 16 Problema
+###### Qual é o processo da análise assintótica? Crie um exemplo
+1 - f(n) = 6n³ + 2n² + 20n + 45;
+<br />
+2 - Identificar o componente de maior ordem;
+<br />
+3 - 6n³;
+<br />
+4 - Ignorar os coeficientes;
+<br />
+5 - n³;
+<br />
+Dizemos que f é assintoticamente no, máximo, n³.
+
+## 17 Problema
+###### O que é a notação assintótica?
+É uma notação utilizada para descrever o relacionamento é f(n) = O(n³).
+
+## 18 Problema
+###### O que é a notação O-Grande ou Big-Oh?
+Notação O-Grande diz que uma função é menor que ou igual a outra função g(n). Ou seja, f é limitada superiormente por g assintoticamente. Geralmente é usada para mostrar como os programas precisam de recursos em relação ao tamanho de entrada.
+
+## 18 Problema
+###### Qual é a definição formal da notação O-Grande?
+Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
+
