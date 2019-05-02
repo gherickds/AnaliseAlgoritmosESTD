@@ -48,15 +48,22 @@ Para cada valor de uma operação primitiva de um algoritmo é atribuído o valo
 ## 10 Problema
 ###### Desenvolva o pseudocódigo do algoritmo SOMA, que realiza a soma de dois números inteiros recebidos por parâmetro e tem como saída a resultado da operação. Identifique a sua função de complexidade de tempo.
 1 – função soma(int a, int b)
+<br />
 2 – retorna a + b
 //Main
+<br />
 3 – a,b,res int
-
+<br />
 início
+<br />
 4 – a <- 5
+<br />
 5 – b <- 10
+<br />
 6 – res <- soma(a,b)
+<br />
 7 - escreva(res)
+<br />
 fim
  
 Tem um tempo de complexidade de 9 passos para finalizar a execução do programa.
