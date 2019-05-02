@@ -1,4 +1,4 @@
-## 1 Problema
+## 1 Problema ###Quais são as duas características mais comuns para analisar algoritmos?
 As duas características mais comuns para analisar um software para dizer se é bom ou ruim são: Tempo e Consumo de memória.
 
 ## 2 Problema
