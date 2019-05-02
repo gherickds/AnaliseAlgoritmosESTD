@@ -94,7 +94,29 @@ Dizemos que f é assintoticamente no, máximo, n³.
 ###### O que é a notação O-Grande ou Big-Oh?
 Notação O-Grande diz que uma função é menor que ou igual a outra função g(n). Ou seja, f é limitada superiormente por g assintoticamente. Geralmente é usada para mostrar como os programas precisam de recursos em relação ao tamanho de entrada.
 
-## 18 Problema
+## 19 Problema
 ###### Qual é a definição formal da notação O-Grande?
 Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
+
+## 20 Problema
+###### Crie um gráfico explicando a notação O-grande. Utilize f(n) = 2n + 4. Qual é um valor possível para n0?
+
+## 21 Problema
+###### O que é a notação o-pequeno ou Little-Oh?
+É uma notação a qual diz que uma função é menor que a outra g(n). Ou seja, f é dominada por g assintoticamente
+
+## 22 Problema
+###### Qual é a definição formal da notação o-pequeno?
+Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
+
+## 23 Problema
+###### Crie um gráfico explicando a notação o-pequeno.
+
+## 24 Problema
+###### Passe a notação O-grande e o-pequeno as funções abaixo:
+
+## 25 Problema
+###### Identifique o O-Grande dos algoritmos desenvolvidos nos Problemas 10 até 14.
+
+
 
