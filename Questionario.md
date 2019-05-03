@@ -67,6 +67,17 @@ início
 fim
  
 Tem um tempo de complexidade de 9 passos para finalizar a execução do programa.
+## Problema 11 
+###### Desenvolva o pseudocódigo do algoritmo SOMA VETOR, que realiza a soma de todos os elementos de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
+
+## Problema 12
+###### Desenvolva o pseudocódigo do algoritmo CONTAGEM IMPARES, que realiza a contagem de números impares de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
+
+## Problema 13
+###### Desenvolva o pseudocódigo do algoritmo SOMA MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
+
+## Problema 14
+###### Desenvolva o pseudocódigo do algoritmo BUSCA MAT RIZ, que identifica posiçãoo x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y . Identifique a sua funçao de complexidade de tempo.
 
 ## Problema 15
 ###### O que é análise assintótica? Qual é o seu objetivo?
