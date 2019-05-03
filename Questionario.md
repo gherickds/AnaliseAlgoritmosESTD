@@ -48,23 +48,44 @@ Para cada valor de uma operação primitiva de um algoritmo é atribuído o valo
 ## Problema 10 
 ###### Desenvolva o pseudocódigo do algoritmo SOMA, que realiza a soma de dois números inteiros recebidos por parâmetro e tem como saída a resultado da operação. Identifique a sua função de complexidade de tempo.
 ```
-1 – função soma(int a, int b)
-2 – retorna a + b
-3 – a, b, res int
-início
-4 – a <- 5
-5 – b <- 10
-6 – res <- soma(a,b)
-7 - escreva(res)
-fim
+1 - p <- a + b
+2 - retorna p;
 ```
- 
-Tem um tempo de complexidade de 9 passos para finalizar a execução do programa.
+Sendo custo c1 e c2;
+f(n) = c1*1 + c2*1
+f(n) = 1 + 1
+f(n) = 2
+
 ## Problema 11 
 ###### Desenvolva o pseudocódigo do algoritmo SOMA VETOR, que realiza a soma de todos os elementos de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
+```
+1 - p <- 0;
+2 - N <- comprimento V;
+3 - para i <- 1 até N;
+4 -        p <- p + V[i]
+5 -        i <- i + 1
+6 - retorna p;
+```
+Sendo custo c1, c2, c3, c4, c5 e c6, o número de vezes no para(for) assume o valor de n, então:
+f(n) = c1 * 1 + c2 * 1 + c3 * n + c4 * n + c5 * n + c6 * 1
+f(n) = 1 + 1 + n + n + n + 1
+f(n) = 3n + 3
 
 ## Problema 12
 ###### Desenvolva o pseudocódigo do algoritmo CONTAGEM IMPARES, que realiza a contagem de números impares de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
+```
+1 - p <- 0;
+2 - N < comprimento V;
+3 - para i <- 1 até N;
+4 -        se V[i]%2 != 0;
+5 -           p <- p + 1
+7 -        i <- i + 1
+8 - retorna p;
+```
+Sendo custo c1, c2, c3, c4, c5, c6 e c7, o número de vezes no para(for) e se(if) assume o valor de n, então:
+f(n) = c1 * 1 + c2 * 1 + c3 * n + c4 * n + c5 * n + c6 * n + c7 * 1
+f(n) = 1 + 1 + n + n + n + n + 1
+f(n) = 4n + 3
 
 ## Problema 13
 ###### Desenvolva o pseudocódigo do algoritmo SOMA MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
