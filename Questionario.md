@@ -183,41 +183,49 @@ Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
 ## Problema 24 
 >###### Passe a notação O-grande e o-pequeno as funções abaixo:
 **A) F(n) = n + 1**
+<br />
 O-grande(n)
 <br />
 o-pequeno(n²)
 
 **B) F(n) = 8**
+<br />
 O-grande(1)
 <br />
 o-pequeno(n)
 
 **C) F(n) = 2n² − 1**
+<br />
 O-grande(n²)
 <br />
 o-pequeno(2^n)
 
 **D) F(n) = nlogn**
+<br />
 O-grande(logn)
 <br />
 o-pequeno(n²)
 
 **E) F(n) = 3n! + 2n**
+<br />
 O-grande(n!)
 <br />
 o-pequeno(n!²)
 
 **F) F(n) = 3n³ + 2n² + 4n + 6**
+<br />
 O-grande(n³)
 <br />
 o-pequeno(n!)
 
 **G) F(n) = 5^n + 11**
+<br />
 O-grande(5^n)
 <br />
 o-pequeno(n * n!)
 
 **H) F(n) = 3logn**
+<br />
 O-grande(logn)
 <br />
 o-pequeno(n²)
