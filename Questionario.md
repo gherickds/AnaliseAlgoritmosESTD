@@ -53,7 +53,7 @@ Para cada valor de uma operação primitiva de um algoritmo é atribuído o valo
 ```
 Sendo custo c1 e c2;
 <br />
-f(n) = c1.1 + c2.1
+f(n) = c1 . 1 + c2 . 1
 <br />
 f(n) = 1 + 1
 <br />
