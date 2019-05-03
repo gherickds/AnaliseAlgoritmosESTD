@@ -182,37 +182,44 @@ Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
 ![questao23](https://raw.githubusercontent.com/gherickds/QuestoesESTD/master/little-oh.PNG)
 ## Problema 24 
 >###### Passe a notação O-grande e o-pequeno as funções abaixo:
-A) F(n) = n + 1
+**A) F(n) = n + 1**
 O-grande(n)
-o-pequeno(n²)
 <br />
-B) F(n) = 8
+o-pequeno(n²)
+
+**B) F(n) = 8**
 O-grande(1)
+<br />
 o-pequeno(n)
-<br />
-C) F(n) = 2n² − 1
+
+**C) F(n) = 2n² − 1**
 O-grande(n²)
+<br />
 o-pequeno(2^n)
-<br />
-D) F(n) = nlogn
+
+**D) F(n) = nlogn**
 O-grande(logn)
+<br />
 o-pequeno(n²)
-<br />
-E) F(n) = 3n! + 2n
-<br />
+
+**E) F(n) = 3n! + 2n**
 O-grande(n!)
+<br />
 o-pequeno(n!²)
-<br />
-F) F(n) = 3n³ + 2n² + 4n + 6
+
+**F) F(n) = 3n³ + 2n² + 4n + 6**
 O-grande(n³)
+<br />
 o-pequeno(n!)
-<br />
-G) F(n) = 5^n + 11
+
+**G) F(n) = 5^n + 11**
 O-grande(5^n)
-o-pequeno(n * n!)
 <br />
-H) F(n) = 3logn
+o-pequeno(n * n!)
+
+**H) F(n) = 3logn**
 O-grande(logn)
+<br />
 o-pequeno(n²)
 
 ## Problema 25 
