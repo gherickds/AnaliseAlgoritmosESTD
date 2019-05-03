@@ -171,7 +171,7 @@ Possível valor para n0:
 n0 = 4
 ## Problema 21 
 >###### O que é a notação o-pequeno ou Little-Oh?
-É uma notação a qual diz que uma função é menor que a outra g(n). Ou seja, f é dominada por g assintoticamente
+É uma notação a qual diz que uma função é menor que a outra g(n). Ou seja, f é dominada por g assintoticamente.
 
 ## Problema 22 
 >###### Qual é a definição formal da notação o-pequeno?
