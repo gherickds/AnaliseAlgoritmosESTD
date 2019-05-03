@@ -166,7 +166,9 @@ Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
 >###### Crie um gráfico explicando a notação O-grande. Utilize f(n) = 2n + 4. Qual é um valor possível para n0?
 ![questao20](https://raw.githubusercontent.com/gherickds/QuestoesESTD/master/big-oh.PNG)
 <br />
-Possível valor para n0: n0 = 4
+Possível valor para n0:
+<br />
+n0 = 4
 ## Problema 21 
 >###### O que é a notação o-pequeno ou Little-Oh?
 É uma notação a qual diz que uma função é menor que a outra g(n). Ou seja, f é dominada por g assintoticamente
@@ -180,6 +182,38 @@ Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
 ![questao23](https://raw.githubusercontent.com/gherickds/QuestoesESTD/master/little-oh.PNG)
 ## Problema 24 
 >###### Passe a notação O-grande e o-pequeno as funções abaixo:
+A) F(n) = n + 1
+O-grande(n)
+o-pequeno(n²)
+<br />
+B) F(n) = 8
+O-grande(1)
+o-pequeno(n)
+<br />
+C) F(n) = 2n² − 1
+O-grande(n²)
+o-pequeno(2^n)
+<br />
+D) F(n) = nlogn
+O-grande(logn)
+o-pequeno(n²)
+<br />
+E) F(n) = 3n! + 2n
+<br />
+O-grande(n!)
+o-pequeno(n!²)
+<br />
+F) F(n) = 3n³ + 2n² + 4n + 6
+O-grande(n³)
+o-pequeno(n!)
+<br />
+G) F(n) = 5^n + 11
+O-grande(5^n)
+o-pequeno(n * n!)
+<br />
+H) F(n) = 3logn
+O-grande(logn)
+o-pequeno(n²)
 
 ## Problema 25 
 >###### Identifique o O-Grande dos algoritmos desenvolvidos nos Problemas 10 até 14.
