@@ -165,7 +165,7 @@ Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
 ## Problema 20 
 >###### Crie um gráfico explicando a notação O-grande. Utilize f(n) = 2n + 4. Qual é um valor possível para n0?
 ![questao20](https://raw.githubusercontent.com/gherickds/QuestoesESTD/master/big-oh.PNG)
-
+Possível valor para n0: n0 = 4
 ## Problema 21 
 >###### O que é a notação o-pequeno ou Little-Oh?
 É uma notação a qual diz que uma função é menor que a outra g(n). Ou seja, f é dominada por g assintoticamente
@@ -176,7 +176,7 @@ Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
 
 ## Problema 23 
 >###### Crie um gráfico explicando a notação o-pequeno.
-
+![questao23](https://raw.githubusercontent.com/gherickds/QuestoesESTD/master/little-oh.PNG)
 ## Problema 24 
 >###### Passe a notação O-grande e o-pequeno as funções abaixo:
 
