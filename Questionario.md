@@ -93,11 +93,11 @@ Sendo custo c1, c2, c3, c4, c5, c6 e c7, o número de vezes no para(for) e se(if
 f(n) = c1 . 1 + c2 . 1 + c3 . n + c4 . n + c5 . n + c6 . n + c7 . 1
 <br />
 f(n) = 1 + 1 + n + n + n + n + 1
->br />
+<br />
 f(n) = 4n + 3
 
 ## Problema 13
-###### Desenvolva o pseudocódigo do algoritmo SOMA MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
+>###### Desenvolva o pseudocódigo do algoritmo SOMA MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
 
 ## Problema 14
 ###### Desenvolva o pseudocódigo do algoritmo BUSCA MATRIZ, que identifica posiçãoo x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y . Identifique a sua funçao de complexidade de tempo.
