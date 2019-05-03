@@ -61,12 +61,12 @@ f(n) = 2
 ## Problema 11 
 >###### Desenvolva o pseudocódigo do algoritmo SOMA VETOR, que realiza a soma de todos os elementos de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
 ```
-1 - p <- 0;
+1 - soma <- 0;
 2 - N <- comprimento V;
-3 - para i <- 1 até N;
-4 -        p <- p + V[i]
+3 - para i <- 1 até N:
+4 -        soma <- soma + V[i]
 5 -        i <- i + 1
-6 - retorna p;
+6 - retorna soma;
 ```
 Sendo custo c1, c2, c3, c4, c5 e c6, o número de vezes no para(for) assume o valor de n, então:
 <br />
@@ -79,13 +79,13 @@ f(n) = 3n + 3
 ## Problema 12
 >###### Desenvolva o pseudocódigo do algoritmo CONTAGEM IMPARES, que realiza a contagem de números impares de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
 ```
-1 - p <- 0;
+1 - cont <- 0;
 2 - N < comprimento V;
-3 - para i <- 1 até N;
-4 -        se V[i]%2 != 0;
-5 -           p <- p + 1
+3 - para i <- 1 até N:
+4 -        se V[i]%2 != 0:
+5 -           cont <- cont + 1
 7 -        i <- i + 1
-8 - retorna p;
+8 - retorna cont;
 ```
 Sendo custo c1, c2, c3, c4, c5, c6 e c7, o número de vezes no para(for) e se(if) assume o valor de n, então:
 <br />
@@ -97,9 +97,39 @@ f(n) = 4n + 3
 
 ## Problema 13
 >###### Desenvolva o pseudocódigo do algoritmo SOMA MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
+```
+1 - soma <- 0;
+2 - N <- comprimento M;
+3 - para i <- até N:
+4 -        para j <- 1 até N:
+5 -             soma <- soma + M[i][j]
+6 -             j <- j + 1
+7 -        i <- i + 1
+8 - retorna soma;
+```
+Sendo custo c1, c2, c3, c4, c5, c6, c7 e c8, o número de vezes no para(for) assume o valor de n, para o para(for) dentro do outro para(for), o número de vezes assume o valor de n . n, então:
+<br />
+f(n) = 1 + 1 + n + n * n + n * n + n * n + n + 1
+<br />
+f(n) = 3n² + 2n + 3
 
 ## Problema 14
 >###### Desenvolva o pseudocódigo do algoritmo BUSCA MATRIZ, que identifica posiçãoo x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y . Identifique a sua funçao de complexidade de tempo.
+```
+1 - N <- comprimento M;
+2 - para i <- 1 até N:
+3 -        para j <- 1 até N:
+4 -             se M[i][j] = V:
+5 -                retorna M[i][j];
+6 -             j <- j + 1
+7 -        i <- i + 1
+8 - retorna M;
+```
+Sendo custo c1, c2, c3, c4, c5, c6, c7 e c8, o número de vezes no para(for) assume o valor de n, para o para(for) dentro do outro para(for) e o se(if), o número de vezes assume o valor de n . n, então:
+<br />
+f(n) = 1 + n + n² + n² + n² + n² + n + 1
+<br />
+f(n) = 4n² + 2n + 2
 
 ## Problema 15
 >###### O que é análise assintótica? Qual é o seu objetivo?
