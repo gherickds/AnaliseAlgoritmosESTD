@@ -52,8 +52,11 @@ Para cada valor de uma operação primitiva de um algoritmo é atribuído o valo
 2 - retorna p;
 ```
 Sendo custo c1 e c2;
+<br />
 f(n) = c1*1 + c2*1
+<br />
 f(n) = 1 + 1
+<br />
 f(n) = 2
 
 ## Problema 11 
@@ -67,8 +70,11 @@ f(n) = 2
 6 - retorna p;
 ```
 Sendo custo c1, c2, c3, c4, c5 e c6, o número de vezes no para(for) assume o valor de n, então:
+<br />
 f(n) = c1 * 1 + c2 * 1 + c3 * n + c4 * n + c5 * n + c6 * 1
+<br />
 f(n) = 1 + 1 + n + n + n + 1
+<br />
 f(n) = 3n + 3
 
 ## Problema 12
@@ -83,8 +89,11 @@ f(n) = 3n + 3
 8 - retorna p;
 ```
 Sendo custo c1, c2, c3, c4, c5, c6 e c7, o número de vezes no para(for) e se(if) assume o valor de n, então:
+<br />
 f(n) = c1 * 1 + c2 * 1 + c3 * n + c4 * n + c5 * n + c6 * n + c7 * 1
+<br />
 f(n) = 1 + 1 + n + n + n + n + 1
+>br />
 f(n) = 4n + 3
 
 ## Problema 13
