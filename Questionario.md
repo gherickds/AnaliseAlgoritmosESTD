@@ -50,7 +50,6 @@ Para cada valor de uma operação primitiva de um algoritmo é atribuído o valo
 ```
 1 – função soma(int a, int b)
 2 – retorna a + b
-//Main
 3 – a, b, res int
 início
 4 – a <- 5
