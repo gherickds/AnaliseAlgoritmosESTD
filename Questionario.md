@@ -77,7 +77,7 @@ Tem um tempo de complexidade de 9 passos para finalizar a execução do programa
 ###### Desenvolva o pseudocódigo do algoritmo SOMA MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo.
 
 ## Problema 14
-###### Desenvolva o pseudocódigo do algoritmo BUSCA MAT RIZ, que identifica posiçãoo x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y . Identifique a sua funçao de complexidade de tempo.
+###### Desenvolva o pseudocódigo do algoritmo BUSCA MATRIZ, que identifica posiçãoo x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y . Identifique a sua funçao de complexidade de tempo.
 
 ## Problema 15
 ###### O que é análise assintótica? Qual é o seu objetivo?
@@ -85,6 +85,8 @@ A análise assintótica é um método de descrever o comportamento de limites, c
 
 ## Problema 16 
 ###### Qual é o processo da análise assintótica? Crie um exemplo
+
+```
 1 - f(n) = 6n³ + 2n² + 20n + 45;
 <br />
 2 - Identificar o componente de maior ordem;
@@ -96,6 +98,7 @@ A análise assintótica é um método de descrever o comportamento de limites, c
 5 - n³;
 <br />
 Dizemos que f é assintoticamente no, máximo, n³.
+```
 
 ## Problema 17 
 ###### O que é a notação assintótica?
