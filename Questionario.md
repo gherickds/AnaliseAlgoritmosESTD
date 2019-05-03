@@ -47,24 +47,18 @@ Para cada valor de uma operação primitiva de um algoritmo é atribuído o valo
 
 ## Problema 10 
 ###### Desenvolva o pseudocódigo do algoritmo SOMA, que realiza a soma de dois números inteiros recebidos por parâmetro e tem como saída a resultado da operação. Identifique a sua função de complexidade de tempo.
+```
 1 – função soma(int a, int b)
-<br />
 2 – retorna a + b
 //Main
-<br />
-3 – a,b,res int
-<br />
+3 – a, b, res int
 início
-<br />
 4 – a <- 5
-<br />
 5 – b <- 10
-<br />
 6 – res <- soma(a,b)
-<br />
 7 - escreva(res)
-<br />
 fim
+```
  
 Tem um tempo de complexidade de 9 passos para finalizar a execução do programa.
 ## Problema 11 
@@ -86,7 +80,6 @@ A análise assintótica é um método de descrever o comportamento de limites, c
 ## Problema 16 
 ###### Qual é o processo da análise assintótica? Crie um exemplo
 
-```
 1 - f(n) = 6n³ + 2n² + 20n + 45;
 <br />
 2 - Identificar o componente de maior ordem;
@@ -98,7 +91,6 @@ A análise assintótica é um método de descrever o comportamento de limites, c
 5 - n³;
 <br />
 Dizemos que f é assintoticamente no, máximo, n³.
-```
 
 ## Problema 17 
 ###### O que é a notação assintótica?
