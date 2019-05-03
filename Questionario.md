@@ -232,6 +232,32 @@ o-pequeno(n²)
 
 ## Problema 25 
 >###### Identifique o O-Grande dos algoritmos desenvolvidos nos Problemas 10 até 14.
+**10- f(n)=2**
+<br />
+O-grande(1)
+<br />
+o-pequeno(n)
 
+**11- f(n)=3n+3**
+<br />
+O-grande(m)
+<br />
+o-pequeno(nlog(n))
 
+**12- f(n)=4n+3**
+<br />
+O-grande(n)
+<br />
+o-pequeno(n²)
 
+**13- f(n)=3n² + 2n + 3**
+<br />
+O-grande(n²)
+<br />
+o-pequeno(n!)
+
+**14- f(n)=4n² + 2n + 2**
+<br />
+O-grande(n²)
+<br />
+o-pequeno(2^n)
